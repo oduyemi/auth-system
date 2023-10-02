@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    scroll-behavior: smooth;
+    background-color: #5DA9E9;
+    color: #D1D1D1;
+}
+
+.text-orange{
+    color: #D81E5B !important;
+}
+
+.bg-orange{
+    background-color: #D81E5B !important;
+    color:#04151F !important;
+}
+
+._btn{
+    border-radius: 10px !important;
+    background-color: #00171F !important;
+    color:#D1D1D1 !important;
+}
+
+._btn :hover{
+    background-color: #313715 !important;
+}
+
+
+.logincard, .regcard{
+    margin-top: 14% !important;
+}
+
+span{
+    font-size: x-small;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .logincard{
+        margin-top: 50% !important;
+    }
+    .regcard{
+        margin-top: 38% !important;
+    }
+}
