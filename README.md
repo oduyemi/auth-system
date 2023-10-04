@@ -22,6 +22,6 @@ Flask
 PostgreSQL
 
 ### Other tools:
-Redis 
+Message brokering: Redis 
 
 
